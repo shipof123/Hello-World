@@ -5,7 +5,7 @@
 
 int main(){
   int ret;
-  char msg[] = "Hello World!";
+  char msg[] = "Hello World!\n";
   
   ret = write(STDOUT, msg, STRLEN(msg));
   
